@@ -304,6 +304,17 @@ class CloudinaryAdapter implements AdapterInterface
         return $this->prepareTimestamp($this->getResource($path));
     }
     /**
+     * Get the url of a file.
+     *
+     * @param string $path
+     *
+     * @return string
+     */
+    public function getUrl($path)
+    {
+        return cloudinary_url($path);
+    }
+    /**
      * Prepare apropriate metadata for resource metadata given from cloudinary.
      * @param  array $resource
      * @return array
