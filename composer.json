@@ -1,5 +1,5 @@
 {
-    "name": "carlosocarvalho/flysystem-cloudinary",
+    "name": "showcheap/laravel-cloudinary",
     "version": "1.0.0",
     "description": "Flysystem adapter for Cloudinary",
     "license": "MIT",
