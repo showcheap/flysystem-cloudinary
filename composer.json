@@ -14,7 +14,7 @@
         "psr-4": {
             "CarlosOCarvalho\\Flysystem\\Cloudinary\\": "src/",
             "CarlosOCarvalho\\Flysystem\\Cloudinary\\Test\\":"tests/",
-            "PringStudio\\Cloudinary\\Provider": "src/providers"
+            "PringStudio\\Cloudinary\\Provider\\": "src/providers"
         }
     },
     "require-dev": {
